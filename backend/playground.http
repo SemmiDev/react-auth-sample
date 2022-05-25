@@ -1,0 +1,22 @@
+POST http://localhost:3030/api/auth/register
+Accept: application/json
+Content-Type: application/json
+TimeZone: Asia/Jakarta
+
+{
+    "email": "sammidev@gmail.com",
+    "password": "sammidev",
+    "username": "sammidev"
+}
+
+###
+
+POST http://localhost:3030/api/auth/login
+Accept: application/json
+Content-Type: application/json
+TimeZone: Asia/Jakarta
+
+{
+    "username": "sammidev",
+    "password": "sammidev"
+}
